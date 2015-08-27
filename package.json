@@ -1,0 +1,26 @@
+{
+  "name": "aphrodite",
+  "version": "0.0.1",
+  "license": "BSD",
+  "engines": {
+    "node": "0.12.x"
+  },
+  "bin": {
+    "coveralls": "./node_modules/coveralls/bin/coveralls.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "lab -v -c -t 100 -L -n eslint -e test",
+    "coverage": "lab -s -r lcov | coveralls"
+  },
+  "dependencies": {
+    "blipp": "^2.2.1",
+    "good": "^6.3.0",
+    "good-console": "^5.0.2",
+    "hapi": "^8.8.1",
+    "hapi-auth-jwt": "^2.1.2",
+    "hoek": "^2.14.0",
+    "joi": "^6.6.1",
+    "mongoose": "^4.1.1"
+  }
+}
