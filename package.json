@@ -21,6 +21,7 @@
     "hapi-auth-jwt": "^2.1.2",
     "hoek": "^2.14.0",
     "joi": "^6.6.1",
+    "mandrill-api": "^1.0.45",
     "mongoose": "^4.1.1"
   }
 }
